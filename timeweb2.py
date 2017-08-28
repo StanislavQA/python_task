@@ -18,7 +18,7 @@ class timeweb2(unittest.TestCase):
         wd = self.wd
         self.open_home_page(wd)
         self.tariff_plan(wd)
-        self.login(wd, username = "Иванов Петр Иванович", email = "stas134@bk.ru")
+        self.login(wd, username = "Чернядьева Анна Константиновна", email = "akchernyadeva@gmail.com")
 
     def login(self, wd, username, email):
         wd.find_element_by_xpath(
