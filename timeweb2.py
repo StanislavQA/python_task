@@ -44,14 +44,7 @@ class timeweb2(unittest.TestCase):
     def open_home_page(self, wd):
         wd.get("https://timeweb.com/ru/")
 
-    def assert_check(self):
-        # Затык в проверке, дальше наброски кода без готового решения
-        wd.find_element_by_link_text("Year+").text()
-        assert "Year+" in self.driver.title # проверка на соответствие
-        wd.find_element_by_id("ui-id-4").click()
-        self.assertTrue(success)
-
-    #Проверка на соответствие выбранного плана
+    # Check for compliance with the selected plan
     def check_exists_by_link_text("Year+"):
         return len(webdriver.find_elements_by_link_text("Year+")) > 0
 
